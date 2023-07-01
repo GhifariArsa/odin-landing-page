@@ -1,0 +1,173 @@
+* {
+    font-family: 'Hero New', sans-serif;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+body {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+a:visited { 
+    text-decoration: none; 
+    color: white; 
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0;
+}
+
+img {
+    height: 200px;
+    width: 300px;
+}
+
+button {
+    background-color: #3882f6;
+    border: none;
+    padding: 10px 30px;
+    border: none;
+    color: #e5e7eb;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+/* Nav bar css */
+
+.navbar {
+    background-color: #1F2937;
+    display: flex;
+    color: white;
+    flex-direction: row;
+    padding: 10px;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.logo-container {
+    margin-left: 20%;
+}
+
+.logo-container .logo {
+    font-size: 24px;
+    font-weight: bolder;
+    color: #f9faf8
+}
+
+.header-link-container {
+    display: flex;
+    padding: 10px;
+    gap: 20px;  
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-right: 20%;
+}
+
+.header {
+    text-align: center;
+    display: flex;
+  	justify-content: center;
+  	align-items: center;
+}
+
+/* Section 2 CSS */
+
+.header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#1F2937;
+}
+
+.header-text-container {
+    width: auto;
+    height: 200px;
+    margin-left: 20%;
+    padding-top: 100px;
+    padding-bottom: 150px;
+    flex-basis: 550px;
+}
+
+.header-text {
+    font-size: 48px;
+    font-weight: bolder;
+    margin: 0;
+    color: #f9faf8;
+}
+
+.header-description {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.image-container {
+    margin-right: 20%;
+    padding-bottom: 20px;
+}
+
+.information-header-text {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    text-align: center;
+}
+
+.information-card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+.information-card {
+    width: 250px;
+    height: 250px;
+}
+
+.information-image {
+    border: 1px solid black;  
+    border-radius: 25px;
+    padding: 10px 20px;
+    width: 150px;
+    height: 150px;  
+    margin: auto;
+    border: 3px solid #3882f6;
+}
+
+.information-subtext {
+    text-align: center;
+    color: gray;
+}
+
+.testimony {
+    background-color: #e5e7eb;
+    height: 328px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-container {
+    width: 1000px
+}
+
+.quote-text {
+    color: #1F2937;
+    font-style: italic;
+    font-size: 36px;
+    font-weight: lighter;
+}
+
+.quote-author {
+    text-align: right;
+    color: #1F2937;
+    font-size: 24px;
+    font-weight: bold;
+}
