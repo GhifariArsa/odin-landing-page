@@ -213,7 +213,6 @@ button {
 }
 .action-popup > .action-button button{
     border: 2px solid white;
-    border: none;
 }
 
 .footer {
